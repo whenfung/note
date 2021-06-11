@@ -1,5 +1,5 @@
 ---
-title: audio
+title: Audio
 ---
 
 HTML 支持音频，例如 QQ 空间、博客的背景音乐。实现音频插入的方法很多，这里我们讲解如何插入 mp3 音频。
@@ -23,8 +23,9 @@ HTML5 支持 audio 标签，格式如下：
 | loop     | loop     | 循环播放               |
 | muted    | muted    | 规定视频输出应该被静音 |
 
-利用 [lailal](https://api.lailal.cc/music.html) 提供的音乐直链，实现样例如下：
+利用网易云音乐提供的音乐直链，实现样例如下：
 
 <audio controls autoplay loop> 
-    <source src="https://api.lailal.cc/music-api/qq.php?mid=003QcJIL0oDUlC"> 
+    <source src="https://music.163.com/song/media/outer/url?id=187672.mp3"> 
 </audio>
+
