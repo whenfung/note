@@ -1,4 +1,4 @@
-虽然 `Xcode` 是默认创建 ` Test Target` 的，但是我们可以自定义或者给没有 `Test Target` 的工程添加 `Test Target`。在导航栏中切换到测试导航菜单，然后点击左下角 `+` 添加 `Test Target`。
+虽然 `Xcode` 可以在创建项目的时候默认创建 ` Test Target`，但是我们可以自定义或者给没有 `Test Target` 的工程添加 `Test Target`。在导航栏中切换到测试导航菜单，然后点击左下角 `+` 添加 `Test Target`。
 
 ## 样例
 
@@ -114,4 +114,6 @@ class UnitTestTests: XCTestCase {
 
 }
 ```
+
+## 单元测试覆盖率
 
