@@ -266,8 +266,3 @@ scrollView.rx.contentOffset
 - 第一行找出事件源
 - 第二行订阅
 - 第三行对事件源的改变作出反应
-
-
-
-
-
